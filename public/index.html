@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auth UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Authentication UI</h1>
+
+    <!-- Registration Form -->
+    <div id="registerForm">
+      <h2>Register</h2>
+      <input type="text" id="registerName" placeholder="Name" />
+      <input type="text" id="registerEmail" placeholder="Email" />
+      <input type="password" id="registerPassword" placeholder="Password" />
+      <button id="registerBtn">Register</button>
+      <div id="registerMessage"></div>
+    </div>
+
+    <!-- Login Form -->
+    <div id="loginForm">
+      <h2>Login</h2>
+      <input type="text" id="loginEmail" placeholder="Email" />
+      <input type="password" id="loginPassword" placeholder="Password" />
+      <button id="loginBtn">Login</button>
+      <div id="loginMessage"></div>
+    </div>
+
+    <!-- Profile -->
+    <div id="profileSection">
+      <h2>Profile</h2>
+      <button id="profileBtn">Get Profile</button>
+      <div id="profileDetails"></div>
+    </div>
+
+    <div id="randomSection">
+      <h2>Random Profile</h2>
+      <button id="randomBtn">Get Random Profile</button>
+      <div id="randomDetails"></div>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
